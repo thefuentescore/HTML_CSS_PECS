@@ -8,7 +8,7 @@ ul.topnav {
     padding-left: 20%;
     padding-right: 20%;
     overflow: hidden;
-    background-color: #333;
+    background-color: #242424;
 }
 
 ul.topnav li {
@@ -17,17 +17,20 @@ ul.topnav li {
 
 ul.topnav li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 1em;
     font-family: Georgia;
 }
 
 ul.topnav li a:hover {
     background-color: #555;
+}
+ul.topnav li a:active {
+    color: : #cf7507;
 }
 /**** ESTILO DEL ARTÍCULO******/
 
@@ -38,7 +41,7 @@ ul.topnav li a:hover {
 }
 .articulo h1 {
     font-weight: bold;
-    color: blue;
+    color: #0b7c82;
 }
 .articulo p {
     font-size: 1em;
@@ -48,7 +51,7 @@ ul.topnav li a:hover {
 	color: orange;
 }
 #autor {
-    background-color: #ffdddd;
+    background-color: lightgrey;
 }
 #autor ul {
     list-style-type: none;
@@ -60,6 +63,7 @@ ul.topnav li a:hover {
     display: inline-block;
     padding: 1em;
 }
+
 #miFooter {
     padding-left: 10%;
     padding-right: 10%;
