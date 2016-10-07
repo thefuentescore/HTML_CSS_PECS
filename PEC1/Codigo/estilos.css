@@ -1,0 +1,71 @@
+ 
+
+/**** ESTILO DE LA BARRA DE MENÚ******/
+
+ /* Remove margins and padding from the list, and add a black background color */
+body{
+	margin: 0;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/**** ESTILO DEL ARTÍCULO******/
+.articulo{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.articulo h1{
+	font-size: 42px;
+	font-family: Arial;
+	font-weight: bold;
+	color: blue;
+}
+.articulo p{
+	font-size: 12px;
+	font-family: Arial;
+}
+
+
+#autor{
+	background-color: #ffdddd;
+}
+#autor ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+
+}
+#autor ul li{
+	float: left;
+	display: inline-block;
+	    padding: 1em;
+}
+
+#miFooter{
+	padding-left: 10%;
+	padding-right: 10%;
+	display: block;
+}
