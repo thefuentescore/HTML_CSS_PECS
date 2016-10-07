@@ -5,7 +5,8 @@ body {
 ul.topnav {
     list-style-type: none;
     margin: 0;
-    padding-left: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     overflow: hidden;
     background-color: #333;
 }
@@ -32,8 +33,8 @@ ul.topnav li a:hover {
 
 .articulo {
     font-family: Georgia;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .articulo h1 {
     font-weight: bold;
@@ -42,7 +43,10 @@ ul.topnav li a:hover {
 .articulo p {
     font-size: 1em;
 }
-
+.articulo a{
+	text-decoration: none;
+	color: orange;
+}
 #autor {
     background-color: #ffdddd;
 }
@@ -64,4 +68,10 @@ ul.topnav li a:hover {
 .imagen_articulo img{
 	display: block;
 	margin: auto;
+}
+.pie_pagina{
+	
+}
+.pie_pagina footer{
+	display: block;
 }
