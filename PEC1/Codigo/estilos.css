@@ -1,3 +1,6 @@
+
+
+
 /**** ESTILO DE LA BARRA DE MENÚ******/
 body{
     margin:  0;
@@ -32,7 +35,7 @@ ul.topnav li a:hover {
 ul.topnav li a:active {
     color: : #cf7507;
 }
-/**** ESTILO DEL ARTÍCULO******/
+/**** ESTILO DEL ARTÍCULO (ACTIVIDAD 1) ******/
 
 .articulo {
     font-family: Georgia;
@@ -100,19 +103,19 @@ ul.topnav li a:active {
     margin: 0;
     padding: 1em;
 }
-/*
-.video_youtube{
-    position: relative;
-    width: 100%
-    height: 0;
-    padding-bottom: 56.25%
-}
-.video_youtube iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    margin: auto;
-    display: block;
-}*/
+ /** ESTILO LISTAS (ACTIVIDAD 2) **/
+
+ ul.lista_paises{
+    list-style-image: url('img/icono-paises.png');
+    padding-left: 10px;
+    font-size: 1.5em;
+ }
+  ul.lista_canales{
+    list-style-image: url('img/icono-cadenas.png');
+    padding-left: 10px;
+    font-size: 0.75em;
+ }
+ ol.lista_series{
+    list-style-image: none;
+    font-size: 0.80em;
+ }
