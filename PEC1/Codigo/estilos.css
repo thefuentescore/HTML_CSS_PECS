@@ -1,6 +1,9 @@
+
+
+
 /**** ESTILO DE LA BARRA DE MENÚ******/
-body {
-    margin: 0;
+body{
+    margin:  0;
 }
 ul.topnav {
     list-style-type: none;
@@ -8,7 +11,7 @@ ul.topnav {
     padding-left: 20%;
     padding-right: 20%;
     overflow: hidden;
-    background-color: #333;
+    background-color: #242424;
 }
 
 ul.topnav li {
@@ -17,28 +20,31 @@ ul.topnav li {
 
 ul.topnav li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 1em;
     font-family: Georgia;
 }
 
 ul.topnav li a:hover {
-    background-color: #555;
+    background-color: #555;;
 }
-/**** ESTILO DEL ARTÍCULO******/
+ul.topnav li a:active {
+    color: : #cf7507;
+}
+/**** ESTILO DEL ARTÍCULO (ACTIVIDAD 1) ******/
 
 .articulo {
     font-family: Georgia;
     padding-left: 20%;
     padding-right: 20%;
 }
-.articulo h1 {
+.articulo h1, h2 {
     font-weight: bold;
-    color: blue;
+    color: #0b7c82;
 }
 .articulo p {
     font-size: 1em;
@@ -47,8 +53,11 @@ ul.topnav li a:hover {
 	text-decoration: none;
 	color: orange;
 }
+.articulo ul{
+    list-style-type: circle;
+}
 #autor {
-    background-color: #ffdddd;
+    background-color: lightgrey;
 }
 #autor ul {
     list-style-type: none;
@@ -60,6 +69,7 @@ ul.topnav li a:hover {
     display: inline-block;
     padding: 1em;
 }
+
 #miFooter {
     padding-left: 10%;
     padding-right: 10%;
@@ -69,9 +79,43 @@ ul.topnav li a:hover {
 	display: block;
 	margin: auto;
 }
-.pie_pagina{
-	
-}
-.pie_pagina footer{
+
+.pie_pagina ul{
 	display: block;
+    background-color: #055256;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
+.pie_pagina ul li{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: white;
+}
+.texto_marcado{
+    border: 1px;
+    border-style: solid none;
+}
+.texto_marcado p{
+    margin: 0;
+    padding: 1em;
+}
+ /** ESTILO LISTAS (ACTIVIDAD 2) **/
+
+ ul.lista_paises{
+    list-style-image: url('img/icono-paises.png');
+    padding-left: 10px;
+    font-size: 1.5em;
+ }
+  ul.lista_canales{
+    list-style-image: url('img/icono-cadenas.png');
+    padding-left: 10px;
+    font-size: 0.75em;
+ }
+ ol.lista_series{
+    list-style-image: none;
+    font-size: 0.80em;
+ }
