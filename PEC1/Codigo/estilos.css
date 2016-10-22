@@ -35,6 +35,8 @@ ul.topnav li a:hover {
 ul.topnav li a:active {
     color: : #cf7507;
 }
+
+
 /**** ESTILO DEL ARTÍCULO (ACTIVIDAD 1) ******/
 
 .articulo {
@@ -56,8 +58,15 @@ ul.topnav li a:active {
 .articulo ul{
     list-style-type: circle;
 }
+
+.articulo q{
+    font-weight: bold;
+}
 #autor {
     background-color: lightgrey;
+    background-image: url('img/icono-autor.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 #autor ul {
     list-style-type: none;
@@ -66,9 +75,10 @@ ul.topnav li a:active {
 }
 #autor ul li {
     float: left;
-    display: inline-block;
+    display: block;
     padding: 1em;
 }
+
 
 #miFooter {
     padding-left: 10%;
@@ -95,14 +105,15 @@ ul.topnav li a:active {
     padding-top: 1em;
     color: white;
 }
+#foto_piePagina{
+    background-image: url('img/logo-uoc.png');
+    background-repeat: no-repeat;
+}
 .texto_marcado{
     border: 1px;
     border-style: solid none;
 }
-.texto_marcado p{
-    margin: 0;
-    padding: 1em;
-}
+
  /** ESTILO LISTAS (ACTIVIDAD 2) **/
 
  ul.lista_paises{
