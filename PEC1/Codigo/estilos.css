@@ -78,6 +78,9 @@ ul.topnav li a:active {
     display: block;
     padding: 1em;
 }
+#imagen_autor {
+    float: right;
+}
 
 
 #miFooter {
@@ -129,4 +132,26 @@ ul.topnav li a:active {
  ol.lista_series{
     list-style-image: none;
     font-size: 0.80em;
+ }
+
+ /** ESTILO DEFINICIONES (ACTIVIDAD 3) **/
+
+ .listado_definiciones dt{
+    font-size: 1em;
+    font-weight: bold;
+    color: #0b7c82;
+    padding-bottom: 1em;
+ }
+ .listado_definiciones button{
+    background-color: #0b7c82;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1em;
+    cursor: pointer;
+    border-radius: 8px;
  }
