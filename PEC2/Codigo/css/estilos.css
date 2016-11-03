@@ -1,0 +1,68 @@
+/**** ESTILO DE LA BARRA DE MENÚ Y PIE DE PÁGINA******/
+body{
+    margin:  0;
+}
+
+#menu_navegacion {
+    padding:  1em;
+    background-color: green;
+    background-image: url('../img/RRLogo.png');
+    background-repeat: no-repeat;
+    background-position: 5% ;
+}
+
+#menu_navegacion ul.topnav {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+#menu_navegacion ul.topnav li {
+    float: right;
+    display: block;
+}
+
+#menu_navegacion ul.topnav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1em;
+    font-family: Georgia;
+}
+
+#menu_navegacion ul.topnav li a:hover {
+    background-color: #555;;
+}
+#menu_navegacion ul.topnav li a:active {
+    color: : #cf7507;
+}
+
+.pie_pagina ul{
+    display: block;
+    background-color: green;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 20%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.pie_pagina ul li{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: white;
+}
+
+/** ESTILO DE INICIO **/
+
+.inicio{
+    background-image: url('../img/fondoindex.jpg');
+    background-repeat: no-repeat;
+}
+#titulo-inicio{
+    padding: 10%;
+}
+
