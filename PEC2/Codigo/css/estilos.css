@@ -2,27 +2,31 @@
 body{
     margin:  0;
 }
-
-#menu_navegacion {
-    padding:  1em;
-    background-color: green;
+#logo-pagina{
     background-image: url('../img/RRLogo.png');
     background-repeat: no-repeat;
-    background-position: 5% ;
+    background-size: contain;
+    padding: 1em;
+    float: left;
+}
+.menu_navegacion {
+    font-family: Georgia;
+    padding:  1em;
+    background-color: green;
 }
 
-#menu_navegacion ul.topnav {
+.menu_navegacion ul.topnav {
     list-style-type: none;
     overflow: hidden;
     margin: 0;
 }
 
-#menu_navegacion ul.topnav li {
+.menu_navegacion ul.topnav li {
     float: right;
     display: block;
 }
 
-#menu_navegacion ul.topnav li a {
+.menu_navegacion ul.topnav li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -33,11 +37,16 @@ body{
     font-family: Georgia;
 }
 
-#menu_navegacion ul.topnav li a:hover {
+.menu_navegacion ul.topnav li a:hover {
     background-color: #555;;
 }
-#menu_navegacion ul.topnav li a:active {
+.menu_navegacion ul.topnav li a:active {
     color: : #cf7507;
+}
+
+.pie_pagina{
+    font-family: Georgia;
+    color: black;
 }
 
 .pie_pagina ul{
@@ -51,16 +60,27 @@ body{
     padding-top: 1em;
 }
 .pie_pagina ul li{
-    padding-bottom: 1em;
-    padding-top: 1em;
-    color: white;
+    padding-top: 0.25em;
+
+}
+.pie_pagina ul li a{
+    color: lightgrey;
+    text-decoration: none;
+    border-bottom: 1px dotted lightgrey;
+}
+#creative-commons{
+    size: 50%;
 }
 
 /** ESTILO DE INICIO **/
 
 .inicio{
+    font-family: Georgia;
     background-image: url('../img/fondoindex.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
 }
 #titulo-inicio{
     padding: 10%;
