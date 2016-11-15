@@ -98,6 +98,7 @@ body{
    background: #FFFFFF;
    border: 1px solid #E1E1E1;
    border-radius: 5px;
+   border-collapse: collapse;
 }
 .cabecera_tabla , .pie_tabla{
    color: white;
@@ -122,4 +123,11 @@ body{
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
+}
+
+/** ESTILO DE RESERVA **/
+.formulario{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
 }
