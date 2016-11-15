@@ -1,6 +1,7 @@
 /**** ESTILO DE LA BARRA DE MENÚ Y PIE DE PÁGINA******/
 body{
     margin:  0;
+    background: #eee;
 }
 #logo-pagina{
     background-image: url('../img/RRLogo.png');
@@ -93,15 +94,32 @@ body{
    width: 80%;
    margin-left: 10%;
    margin-right: 10%;
+   margin-bottom: 1em;
    background: #FFFFFF;
-   border: 1px solid #333333;
-   border-collapse: collapse;
+   border: 1px solid #E1E1E1;
+   border-radius: 5px;
 }
+.cabecera_tabla , .pie_tabla{
+   color: white;
+   font-family: sans-serif;
+   background: linear-gradient(#435465,#526373,#435465);
+}
+
 .tabla_precios td, .tabla_precios th {
-   border-bottom: 1px solid #333333;
+   border-bottom: 1px solid #E1E1E1;
    padding: 6px 16px;
-   text-align: left;
+   text-align: center;
+
+}
+.tipo_habitacion{
+    font-weight: bold;
+    color: black;
 }
 .impar th, .impar td{
-    background: #eee;
+    background: #EFF3F5;
+}
+#tituloPrecios{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
