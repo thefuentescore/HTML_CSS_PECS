@@ -1,46 +1,72 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/estilos.css">
-		<title>RURAL ROOMS: RESERVA</title>
-		<meta name="description" content="Pantalla para hacer una reserva en Rural Rooms">
-	</head>
-	<body>
-		<!-- Menu principal -->
-		<nav class="menu_navegacion">
-			<ul class="topnav">
-				<li><a href="reserva.html">Reserva</a></li>
-				<li><a href="precios.html">Precios</a></li>
-				<li><a href="index.html">Inicio</a></li>
-				<li id="logo-pagina"><a href="index.html"> </a></li>
-			</ul>
-		</nav>
-		
-		<h1>Reserve su habitación en Rural Rooms</h1>
-		<form class="formulario">
-			<fieldset class="datosPersonales">
-				<legend> Datos Personales</legend>
-				<label for="tratamiento">Tratamiento</label>
-				<select id="tratamiento" name="tratamiento">
-					<optgroup label="Tipos de Tratamiento">
-						<option value="" selected="selected">-selecciona-</option>
-						<option value="1">Sr</option>
-						<option value="2">Sra</option>
-						<option value="3">Srta</option>
-					</optgroup>
-				</select>
-				<br/><br/>
-				<label for="nombre">Nombre</label>
-				<input type="text" name="nombre">
-			</fieldset>
-		</form>
-		<!-- Pie de Página -->
-		<footer class="pie_pagina">
-			<ul>
-				<li>Actividad realizada por <b>Sergio Fuentes</b></li>
-				<li>Fotografías de la portada <a href="https://unsplash.com/">Unsplash</a> <a href=""><img id="creative-commons" src='img/creative-commons.png' alt="imagen de creative commons"></a></li>
-			</ul>
-		</footer>
-	</body>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>RURAL ROOMS: RESERVA</title>
+    <meta name="description" content="Pantalla para hacer una reserva en Rural Rooms">
+</head>
+
+<body>
+    <!-- Menu principal -->
+    <nav class="menu_navegacion">
+        <ul class="topnav">
+            <li><a href="reserva.html">Reserva</a></li>
+            <li><a href="precios.html">Precios</a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li id="logo-pagina">
+                <a href="index.html"> </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="form-style-10">
+        <h1>¡ Reserve su habitación en Rural Rooms !</h1>
+        <form>
+            <div class="section"><span>1</span>Datos Personales</div>
+            <div class="inner-wrap">
+                <label>Nombre Completo
+                    <input type="text" name="field1" />
+                </label>
+                <label>Address
+                    <textarea name="field2"></textarea>
+                </label>
+            </div>
+            <div class="section"><span>2</span>Email &amp; Phone</div>
+            <div class="inner-wrap">
+                <label>Email Address
+                    <input type="email" name="field3" />
+                </label>
+                <label>Phone Number
+                    <input type="text" name="field4" />
+                </label>
+            </div>
+            <div class="section"><span>3</span>Passwords</div>
+            <div class="inner-wrap">
+                <label>Password
+                    <input type="password" name="field5" />
+                </label>
+                <label>Confirm Password
+                    <input type="password" name="field6" />
+                </label>
+            </div>
+            <div class="button-section">
+                <input type="submit" name="Sign Up" />
+                <span class="privacy-policy">
+     <input type="checkbox" name="field7">You agree to our Terms and Policy. 
+     </span>
+            </div>
+        </form>
+    </div>
+    <!-- Pie de Página -->
+    <footer class="pie_pagina">
+        <ul>
+            <li>Actividad realizada por <b>Sergio Fuentes</b></li>
+            <li>Fotografías de la portada <a href="https://unsplash.com/">Unsplash</a>
+                <a href=""><img id="creative-commons" src='img/creative-commons.png' alt="imagen de creative commons"></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
 </html>
