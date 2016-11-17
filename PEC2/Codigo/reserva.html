@@ -25,29 +25,71 @@
         <form>
             <div class="section"><span>1</span>Datos Personales</div>
             <div class="inner-wrap">
+                <label>Tratamiento
+                    <select>
+                        <option>Sr</option>
+                        <option>Sra</option>
+                        <option>Srta</option>
+                    </select>
+                </label>
                 <label>Nombre Completo
                     <input type="text" name="field1" />
                 </label>
-                <label>Address
-                    <textarea name="field2"></textarea>
+                <label>Correo
+                    <input type="email" name="field2"></input>
+                </label>
+                <label>Confirmar Correo
+                    <input type="email" name="field2"></input>
+                </label>
+                <label>Contraseña
+                    <input type="password" name="field2"></input>
                 </label>
             </div>
-            <div class="section"><span>2</span>Email &amp; Phone</div>
+            <div class="section"><span>2</span>Reserva</div>
             <div class="inner-wrap">
-                <label>Email Address
-                    <input type="email" name="field3" />
+                <label>Tipo de Habitación
+                    <select>
+                        <option>Individual</option>
+                        <option>Doble</option>
+                        <option>Doble Superior</option>
+                        <option>Triple</option>
+                    </select>
                 </label>
-                <label>Phone Number
-                    <input type="text" name="field4" />
+                <label>Número de personas
+                    <input type="number" name="field2"></input>
+                </label>
+                <label>Fecha de Entrada
+                    <input type="date" name="field6" />
+                </label>
+                <label>Fecha de Salida
+                    <input type="date" name="field6" />
+                </label>
+                <label>Peticiones Adicionales*
+                    <textarea></textarea>
+                </label>
+                <label class="informacionAdicional">
+                    *Tenga en cuenta que las peticiones adicionales no se pueden garantizar al 100%
                 </label>
             </div>
-            <div class="section"><span>3</span>Passwords</div>
+            <div class="section"><span>3</span>Información Adicional</div>
             <div class="inner-wrap">
-                <label>Password
-                    <input type="password" name="field5" />
+                <label>
+                    Desea reservar plaza de aparcamiento cubierto ( 8€ / noche )
+                    <select>
+                        <option>Sí</option>
+                        <option>No</option>
+                    </select>
                 </label>
-                <label>Confirm Password
-                    <input type="password" name="field6" />
+                <label>
+                    Desea incluir el desayuno ( 5€ / día )
+                    <select>
+                        <option>Sí</option>
+                        <option>No</option>
+                    </select>
+                </label>
+                <label>
+                    Hora prevista de llegada
+                    <input type="time" name="field9" />
                 </label>
             </div>
             <div class="button-section">
