@@ -20,11 +20,11 @@
             </li>
         </ul>
     </nav>
-    <div class="form-style-10">
+    <div class="formulario">
         <h1>¡ Reserve su habitación en Rural Rooms !</h1>
         <form>
-            <div class="section"><span>1</span>Datos Personales</div>
-            <div class="inner-wrap">
+            <div class="seccion"><span>1</span>Datos Personales</div>
+            <div class="caja_interior">
                 <label>Tratamiento
                     <select>
                         <option>Sr</option>
@@ -32,22 +32,22 @@
                         <option>Srta</option>
                     </select>
                 </label>
-                <label>Nombre Completo
-                    <input type="text" name="field1" />
+                <label>Nombre Completo*
+                    <input type="text" name="nombre" />
                 </label>
-                <label>Correo
-                    <input type="email" name="field2"></input>
+                <label>Correo*
+                    <input type="email" name="correo"></input>
                 </label>
-                <label>Confirmar Correo
-                    <input type="email" name="field2"></input>
+                <label>Confirmar Correo*
+                    <input type="email" name="confirma_correo"></input>
                 </label>
                 <label>Contraseña
-                    <input type="password" name="field2"></input>
+                    <input type="password" name="contraseña"></input>
                 </label>
             </div>
-            <div class="section"><span>2</span>Reserva</div>
-            <div class="inner-wrap">
-                <label>Tipo de Habitación
+            <div class="seccion"><span>2</span>Reserva</div>
+            <div class="caja_interior">
+                <label>Tipo de Habitación*
                     <select>
                         <option>Individual</option>
                         <option>Doble</option>
@@ -55,24 +55,25 @@
                         <option>Triple</option>
                     </select>
                 </label>
-                <label>Número de personas
-                    <input type="number" name="field2"></input>
+                <label>Número de personas*
+                    <input type="number" name="num_personas"></input>
                 </label>
-                <label>Fecha de Entrada
-                    <input type="date" name="field6" />
+                <label>Fecha de Entrada*
+                    <input type="date" name="fentrada" />
                 </label>
-                <label>Fecha de Salida
-                    <input type="date" name="field6" />
+                <label>Fecha de Salida*
+                    <input type="date" name="fsalida" />
                 </label>
-                <label>Peticiones Adicionales*
+                <label>Peticiones Adicionales**
                     <textarea></textarea>
                 </label>
                 <label class="informacionAdicional">
-                    *Tenga en cuenta que las peticiones adicionales no se pueden garantizar al 100%
+                    * Estos campos son obligatorios.
+                    <br/>**Tenga en cuenta que las peticiones adicionales no se pueden garantizar al 100%
                 </label>
             </div>
-            <div class="section"><span>3</span>Información Adicional</div>
-            <div class="inner-wrap">
+            <div class="seccion"><span>3</span>Información Adicional</div>
+            <div class="caja_interior">
                 <label>
                     Desea reservar plaza de aparcamiento cubierto ( 8€ / noche )
                     <select>
@@ -89,14 +90,11 @@
                 </label>
                 <label>
                     Hora prevista de llegada
-                    <input type="time" name="field9" />
+                    <input type="time" name="hentrada" />
                 </label>
             </div>
-            <div class="button-section">
+            <div class="seccion_boton">
                 <input type="submit" name="Sign Up" />
-                <span class="privacy-policy">
-     <input type="checkbox" name="field7">You agree to our Terms and Policy. 
-     </span>
             </div>
         </form>
     </div>

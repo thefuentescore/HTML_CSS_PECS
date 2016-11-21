@@ -145,7 +145,7 @@ body {
 
 /** ref: https://www.sanwebe.com/2014/08/css-html-forms-designs **/
 
-.form-style-10 {
+.formulario {
     width: 450px;
     padding: 30px;
     margin: 40px auto;
@@ -158,15 +158,15 @@ body {
     -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
 }
 
-.form-style-10 .inner-wrap {
+.formulario .caja_interior {
     padding: 30px;
     background: #F8F8F8;
     border-radius: 6px;
     margin-bottom: 15px;
 }
 
-.form-style-10 h1 {
-    background: #2A88AD;
+.formulario h1 {
+    background: #B97A57;
     padding: 20px 30px 15px 30px;
     margin: -30px -30px 30px -30px;
     border-radius: 10px 10px 0 0;
@@ -181,30 +181,30 @@ body {
     border: 1px solid #257C9E;
 }
 
-.form-style-10 h1 > span {
+.formulario h1 > span {
     display: block;
     margin-top: 2px;
     font: 13px Arial, Helvetica, sans-serif;
 }
 
-.form-style-10 label {
+.formulario label {
     display: block;
     font: 13px Arial, Helvetica, sans-serif;
     color: #888;
     margin-bottom: 15px;
 }
 
-.form-style-10 input[type="text"],
-.form-style-10 input[type="date"],
-.form-style-10 input[type="datetime"],
-.form-style-10 input[type="email"],
-.form-style-10 input[type="number"],
-.form-style-10 input[type="search"],
-.form-style-10 input[type="time"],
-.form-style-10 input[type="url"],
-.form-style-10 input[type="password"],
-.form-style-10 textarea,
-.form-style-10 select {
+.formulario input[type="text"],
+.formulario input[type="date"],
+.formulario input[type="datetime"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="search"],
+.formulario input[type="time"],
+.formulario input[type="url"],
+.formulario input[type="password"],
+.formulario textarea,
+.formulario select {
     display: block;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -220,14 +220,14 @@ body {
     -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
 }
 
-.form-style-10 .section {
+.formulario .seccion {
     font: normal 20px 'Bitter', serif;
-    color: #2A88AD;
+    color: #008000;
     margin-bottom: 5px;
 }
 
-.form-style-10 .section span {
-    background: #2A88AD;
+.formulario .seccion span {
+    background: #008000;
     padding: 5px 10px 5px 10px;
     position: absolute;
     border-radius: 50%;
@@ -240,9 +240,9 @@ body {
     margin-top: -3px;
 }
 
-.form-style-10 input[type="button"],
-.form-style-10 input[type="submit"] {
-    background: #2A88AD;
+.formulario input[type="button"],
+.formulario input[type="submit"] {
+    background: #008000;
     padding: 8px 20px 8px 20px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -257,19 +257,10 @@ body {
     font-size: 15px;
 }
 
-.form-style-10 input[type="button"]:hover,
-.form-style-10 input[type="submit"]:hover {
-    background: #2A6881;
+.formulario input[type="button"]:hover,
+.formulario input[type="submit"]:hover {
+    background: #B97A57;
     -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
     -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
     box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
-}
-
-.form-style-10 .privacy-policy {
-    float: right;
-    width: 250px;
-    font: 12px Arial, Helvetica, sans-serif;
-    color: #4D4D4D;
-    margin-top: 10px;
-    text-align: right;
 }
