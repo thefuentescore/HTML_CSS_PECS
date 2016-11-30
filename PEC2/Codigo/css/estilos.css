@@ -46,10 +46,6 @@ body {
     ;
 }
 
-.menu_navegacion ul.topnav li a:active {
-    color: : #cf7507;
-}
-
 .pie_pagina {
     font-family: Georgia;
     color: black;
@@ -74,10 +70,6 @@ body {
     color: lightgrey;
     text-decoration: none;
     border-bottom: 1px dotted lightgrey;
-}
-
-#creative-commons {
-    size: 50%;
 }
 
 

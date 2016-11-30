@@ -10,7 +10,7 @@
 
 <body>
     <!-- Menu principal -->
-    <nav class="menu_navegacion">
+    <div class="menu_navegacion">
         <ul class="topnav">
             <li><a href="reserva.html">Reserva</a></li>
             <li><a href="precios.html">Precios</a></li>
@@ -19,7 +19,7 @@
                 <a href="index.html"> </a>
             </li>
         </ul>
-    </nav>
+    </div>
     <div class="formulario">
         <h1>¡ Reserve su habitación en Rural Rooms !</h1>
         <form>
@@ -33,16 +33,16 @@
                     </select>
                 </label>
                 <label>Nombre Completo*
-                    <input type="text" name="nombre" />
+                    <input type="text" name="nombre" required>
                 </label>
                 <label>Correo*
-                    <input type="email" name="correo"></input>
+                    <input type="email" name="correo">
                 </label>
                 <label>Confirmar Correo*
-                    <input type="email" name="confirma_correo"></input>
+                    <input type="email" name="confirma_correo">
                 </label>
                 <label>Contraseña
-                    <input type="password" name="contraseña"></input>
+                    <input type="password" name="contraseña">
                 </label>
             </div>
             <div class="seccion"><span>2</span>Reserva</div>
@@ -56,13 +56,13 @@
                     </select>
                 </label>
                 <label>Número de personas*
-                    <input type="number" name="num_personas"></input>
+                    <input type="number" name="num_personas">
                 </label>
                 <label>Fecha de Entrada*
-                    <input type="date" name="fentrada" />
+                    <input type="date" name="fentrada">
                 </label>
                 <label>Fecha de Salida*
-                    <input type="date" name="fsalida" />
+                    <input type="date" name="fsalida">
                 </label>
                 <label>Peticiones Adicionales**
                     <textarea></textarea>
@@ -90,7 +90,7 @@
                 </label>
                 <label>
                     Hora prevista de llegada
-                    <input type="time" name="hentrada" />
+                    <input type="time" name="hentrada">
                 </label>
             </div>
             <div class="seccion_boton">
