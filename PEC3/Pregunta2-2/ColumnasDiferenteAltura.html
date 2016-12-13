@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Columnas de igual altura</title>
+<style type="text/css">
+	html {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+		font: 14px/1.4 Arial, Helvetica, sans-serif; 
+		background-color: #fff;
+		color: #000;
+		width: 90%;
+		margin: 3em auto;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	p.enunciado{
+		padding: 2em;
+		background-color: #eee;
+		margin: 3em auto;
+	}
+
+	/* Los estilos para las columnas de diferente altura*/
+	.container {
+		background-color: #000;
+		width: 90%;
+		max-width: 974px;
+		padding: 3%;
+		margin: 0 auto;
+		overflow:auto;
+	}
+	.columna {
+		float: left;
+		width: 46%;
+		margin-bottom: 3em;
+		padding: 2%;
+	}
+
+	.columna1 {
+		background-color: #CF0;
+	}
+
+	.columna2 {
+		background-color: #FF0;
+	}
+
+</style>
+</head>
+
+<body>
+	
+	<h1>Ejercicio: columnas de diferente altura posicionadas con <code>float</code></h1>
+    
+
+    <p class="enunciado">Las dos columnas tienen diferente altura ya que adquieren la de su respectivo contenido. Debes econtrar una solución para conseguir que las dos columnas tengan la misma altura sin necesidad de utilizar la propiedad CSS <code>height</code>...</p>
+    <div class="container">
+		<div class="columna columna1">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in vulputate metus. Donec non bibendum lectus. Pellentesque libero mauris, consequat nec quam ut, laoreet euismod nunc. Mauris vehicula, risus nec lobortis tempus, nunc lorem pulvinar nulla, rutrum malesuada orci arcu quis justo. Cras non fringilla nulla. Curabitur pulvinar ullamcorper augue, malesuada gravida mauris eleifend sit amet. Maecenas a accumsan leo. In interdum in felis non molestie. Fusce lacinia facilisis ante quis consequat. Integer commodo gravida risus at molestie. Nullam rhoncus tempor pretium. Integer lobortis dolor felis, vel luctus neque sollicitudin eget. Etiam imperdiet in ipsum at vestibulum. In hac habitasse platea dictumst. Nulla in arcu neque. Praesent tincidunt odio non enim facilisis, vitae hendrerit ante accumsan.</p>
+		</div>
+		<div class="columna columna2">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in vulputate metus. Donec non bibendum lectus. Pellentesque libero mauris, consequat nec quam ut, laoreet euismod nunc. Mauris vehicula, risus nec lobortis tempus, nunc lorem pulvinar nulla, rutrum malesuada orci arcu quis justo. Cras non fringilla nulla. Curabitur pulvinar ullamcorper augue, malesuada gravida mauris eleifend sit amet. Maecenas a accumsan leo. In interdum in felis non molestie. Fusce lacinia facilisis ante quis consequat. Integer commodo gravida risus at molestie. Nullam rhoncus tempor pretium. Integer lobortis dolor felis, vel luctus neque sollicitudin eget. Etiam imperdiet in ipsum at vestibulum. In hac habitasse platea dictumst. Nulla in arcu neque. Praesent tincidunt odio non enim facilisis, vitae hendrerit ante accumsan.</p>
+			<p>Nam vulputate mollis ante, vel gravida turpis fermentum eget. Ut id urna sed mauris semper tempus convallis non metus. Vestibulum volutpat blandit quam, ut mollis lacus. Aenean aliquam risus et quam tempus pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in consequat est. Vivamus eleifend quis neque sed pretium. Nullam et congue purus.</p> 
+		</div>
+	</div>
+   
+    
+
+	
+
+
+
+</body>
+</html>
