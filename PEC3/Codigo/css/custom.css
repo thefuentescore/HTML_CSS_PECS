@@ -15,10 +15,14 @@
 }
 
 .welcome-block {
-    margin-top: -20px;
+    margin-top: -10px;
     width: 100%;
     height: 50%;
     background: url('../img/bg-inicio1.jpg');
+}
+.main-page{
+	padding-bottom: 2em;
+	padding-top: 2em;
 }
 
 #lema-inicio {
